@@ -1,5 +1,3 @@
-<button>https://github.com/<button>
-
 - 👋 Hi, I’m @MsDroid
 - 👀 I’m interested in code + learn new things.
 - 🌱 I’m currently learning ethical hacking.
