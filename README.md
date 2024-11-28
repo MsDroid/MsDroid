@@ -14,7 +14,7 @@
 
 <p align="left">
   <a href="mailto:manoranjansngh77@gmail.com"><img align="left" height="30" width="80" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_1x_r5.png" /></a>
-<a href="https://linkedin.com/in/sekh-gulam-mainuddin-2614b020b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sekh-gulam-mainuddin-2614b020b" height="30" width="40" /></a>
+<a href="#" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sekh-gulam-mainuddin-2614b020b" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
