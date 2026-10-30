@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Manoranjan Singh - MsDroid">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="0.55" stop-color="#0d1b2e"/>
+      <stop offset="1" stop-color="#10283a"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ddc84"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ddc84" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3ddc84" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3ddc84" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="typeclip">
+      <rect x="290" y="196" width="0" height="34">
+        <animate attributeName="width" from="0" to="560" begin="0.6s" dur="2.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'Fira Code', 'Courier New', monospace; }
+    .tok { fill: #3ddc84; opacity: 0; font-size: 18px; animation: rise 9s linear infinite; }
+    .tok.b { fill: #22d3ee; }
+    .tok.p { fill: #a78bfa; }
+    @keyframes rise {
+      0%   { transform: translateY(0);      opacity: 0; }
+      12%  { opacity: .55; }
+      85%  { opacity: .35; }
+      100% { transform: translateY(-250px); opacity: 0; }
+    }
+    .bob   { animation: bob 3.2s ease-in-out infinite; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    .eye   { transform-box: fill-box; transform-origin: center; animation: blink 4s infinite; }
+    @keyframes blink { 0%,92%,100% { transform: scaleY(1); } 95% { transform: scaleY(0.1); } }
+    .ant-l { transform-box: fill-box; transform-origin: bottom right; animation: wl 2.6s ease-in-out infinite; }
+    .ant-r { transform-box: fill-box; transform-origin: bottom left;  animation: wr 2.6s ease-in-out infinite; }
+    @keyframes wl { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-12deg); } }
+    @keyframes wr { 0%,100% { transform: rotate(0); } 50% { transform: rotate(12deg); } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity: .8; } 50% { transform: scale(1.18); opacity: 1; } }
+    .cur { animation: cur 1s steps(1) infinite; }
+    @keyframes cur { 0%,50% { opacity: 1; } 50.01%,100% { opacity: 0; } }
+    .fade { opacity: 0; animation: fadein 1.2s ease forwards; }
+    @keyframes fadein { to { opacity: 1; } }
+  </style>
+
+  <rect width="1000" height="280" rx="18" fill="url(#bg)"/>
+  <rect width="1000" height="280" rx="18" fill="url(#grid)"/>
+  <circle class="pulse" cx="125" cy="150" r="130" fill="url(#glow)"/>
+  <circle class="pulse" cx="900" cy="40" r="90" fill="#a78bfa" fill-opacity="0.10"/>
+
+  <!-- floating code tokens -->
+  <g class="mono">
+    <text class="tok"      x="300" y="270" style="animation-delay:0s">&lt;/&gt;</text>
+    <text class="tok b"    x="420" y="270" style="animation-delay:1.6s">{ }</text>
+    <text class="tok p"    x="520" y="270" style="animation-delay:3.1s">Dart</text>
+    <text class="tok"      x="640" y="270" style="animation-delay:4.4s">flutter</text>
+    <text class="tok b"    x="760" y="270" style="animation-delay:2.2s">01101</text>
+    <text class="tok p"    x="860" y="270" style="animation-delay:5.6s">$ sudo</text>
+    <text class="tok"      x="930" y="270" style="animation-delay:0.9s">;</text>
+    <text class="tok b"    x="360" y="270" style="animation-delay:6.5s">Kotlin</text>
+    <text class="tok p"    x="700" y="270" style="animation-delay:7.4s">Laravel</text>
+    <text class="tok"      x="40"  y="270" style="animation-delay:3.8s">main()</text>
+    <text class="tok b"    x="230" y="270" style="animation-delay:5s">=&gt;</text>
+  </g>
+
+  <!-- android droid -->
+  <g class="bob">
+    <g class="ant-l"><line x1="88"  y1="96" x2="70"  y2="66" stroke="#3ddc84" stroke-width="5" stroke-linecap="round"/></g>
+    <g class="ant-r"><line x1="162" y1="96" x2="180" y2="66" stroke="#3ddc84" stroke-width="5" stroke-linecap="round"/></g>
+    <path d="M62 152 A63 56 0 0 1 188 152 Z" fill="#3ddc84"/>
+    <circle class="eye" cx="98"  cy="126" r="7" fill="#06101c"/>
+    <circle class="eye" cx="152" cy="126" r="7" fill="#06101c"/>
+    <rect x="62" y="160" width="126" height="68" rx="14" fill="#3ddc84"/>
+    <rect x="38" y="162" width="18" height="52" rx="9" fill="#3ddc84"/>
+    <rect x="194" y="162" width="18" height="52" rx="9" fill="#3ddc84"/>
+    <rect x="88"  y="228" width="18" height="26" rx="9" fill="#3ddc84"/>
+    <rect x="144" y="228" width="18" height="26" rx="9" fill="#3ddc84"/>
+    <text x="125" y="205" text-anchor="middle" class="mono" font-size="26" font-weight="700" fill="#06101c">&lt;/&gt;</text>
+  </g>
+
+  <!-- text -->
+  <text class="fade" x="290" y="118" font-size="20" fill="#7dd3fc" letter-spacing="6" style="animation-delay:.1s">HELLO WORLD, I'M</text>
+  <text class="fade" x="288" y="172" font-size="56" font-weight="800" fill="url(#name)" letter-spacing="1" style="animation-delay:.3s">Manoranjan Singh</text>
+  <text class="fade" x="290" y="196" font-size="15" fill="#8aa0b8" style="animation-delay:.6s" display="none">.</text>
+
+  <g clip-path="url(#typeclip)">
+    <text class="mono" x="290" y="222" font-size="19" fill="#c7d2e0">@MsDroid  •  TheDroidSoft  •  Ranchi, IN</text>
+  </g>
+
+  <text class="mono fade" x="290" y="252" font-size="15" fill="#3ddc84" style="animation-delay:3.2s">Flutter · Android · Kotlin · Laravel · Node<tspan class="cur" fill="#22d3ee">█</tspan></text>
+
+  <rect x="0" y="276" width="1000" height="4" fill="url(#line)"/>
+</svg>
